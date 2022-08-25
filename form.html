@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form</title>
+</head>
+<body>
+    <h1> Tambah data Siswa</h1>
+    <p> Isikan semua data dengan benar, lalu tekan simpan</p>
+    <form>
+        <table cellpadding="10">
+            <tr>
+                <td><label for="nama">Nama</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="KotaLahir">Kota Lahir</label></td>
+                <td>
+                    <select name="KotaLahir" id="KotaLahir">
+
+                        <option value="" selected disabled>Pilih kota</option>
+                        <option value="">Surabaya</option>
+                        <option value="">Bandung</option>
+                        <option value="">Jakarta</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="TanggalLahir">Tanggal Lahir</label></td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+               <td>Agama</td>
+               <td>
+                <input type="radio" name="agama">Islam
+                <input type="radio" name="agama">Katolik
+                <input type="radio" name="agama">Kristen
+                <input type="radio" name="agama">Hindu
+                <input type="radio" name="agama">Konghucu
+               </td>                
+            </tr>
+            <tr>
+                <td>Foto</td>
+                <td><input type="file"></td>
+            </tr>
+            <tr>
+                <td colspan="5"><button>Simpan</button></td>
+                <td>
+                    <a href="test.html">
+                    <button type="button">Kembali</button>
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
